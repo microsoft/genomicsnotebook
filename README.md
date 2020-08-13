@@ -10,6 +10,7 @@ Here is the list of sample notebooks on this repo:
 2. [`genomics-platinum-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-platinum-genomes.ipynb): Accessing Illumina Platinum Genomes data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) and to make initial data analysis.
 3. [`genomics-reference-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-reference-genomes.ipynb): Accessing reference genomes from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
 4. [`genomics-clinvar.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-clinvar.ipynb): Accessing ClinVar data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+5. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
 
 
 # 1. Prerequisites
