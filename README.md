@@ -11,7 +11,8 @@ Here is the list of sample notebooks on this repo:
 3. [`genomics-reference-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-reference-genomes.ipynb): Accessing reference genomes from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
 4. [`genomics-clinvar.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-clinvar.ipynb): Accessing ClinVar data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
 5. [`genomics-giab.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/AzureNotebooks-azure-storage-genomics-giab.ipynb): Accessing Genome in a Bottle data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
-6. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
+6. [`SnpEff.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/SnpEff.ipynb): Accessing SnpEff databases from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+7. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
 
 
 # 1. Prerequisites
