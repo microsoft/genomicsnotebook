@@ -6,13 +6,14 @@ Jupyter notebooks are a great tool for data scientists who are working on genomi
 
 Here is the list of sample notebooks on this repo:
 
-1. [`genomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics.ipynb): From 'uBAM' to 'structured data table' analysis.
-2. [`genomics-platinum-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-platinum-genomes.ipynb): Accessing Illumina Platinum Genomes data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) and to make initial data analysis.
-3. [`genomics-reference-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-reference-genomes.ipynb): Accessing reference genomes from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
-4. [`genomics-clinvar.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-clinvar.ipynb): Accessing ClinVar data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
-5. [`genomics-giab.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/AzureNotebooks-azure-storage-genomics-giab.ipynb): Accessing Genome in a Bottle data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
-6. [`SnpEff.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/SnpEff.ipynb): Accessing SnpEff databases from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
-7. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
+1. [`genomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics.ipynb): Analysis from 'uBAM' to 'structured data table' analysis.
+2. [`genomicsML.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomicsML.ipynb): Train Machine Learning models with Genomics + Clinical Data
+3. [`genomics-platinum-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-platinum-genomes.ipynb): Accessing Illumina Platinum Genomes data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) and to make initial data analysis.
+4. [`genomics-reference-genomes.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-reference-genomes.ipynb): Accessing reference genomes from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+5. [`genomics-clinvar.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics-clinvar.ipynb): Accessing ClinVar data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+6. [`genomics-giab.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/AzureNotebooks-azure-storage-genomics-giab.ipynb): Accessing Genome in a Bottle data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+7. [`SnpEff.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/SnpEff.ipynb): Accessing SnpEff databases from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
+8. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
 
 
 # 1. Prerequisites
