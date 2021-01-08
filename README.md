@@ -14,6 +14,7 @@ Here is the list of sample notebooks on this repo:
 6. [`genomics-giab.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/AzureNotebooks-azure-storage-genomics-giab.ipynb): Accessing Genome in a Bottle data from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
 7. [`SnpEff.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/SnpEff.ipynb): Accessing SnpEff databases from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) 
 8. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
+9. [`simtotable.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/simtotable.ipynb): Simulate NGS data, use Cromwell on Azure OR Microsoft Genomics service for secondary analysis and convert the gVCF data to a structured data table.
 
 
 # 1. Prerequisites
