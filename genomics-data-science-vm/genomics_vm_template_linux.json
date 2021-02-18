@@ -30,10 +30,6 @@
                 "Standard_A5",
                 "Standard_A6",
                 "Standard_A7",
-                "Standard_A8",
-                "Standard_A9",
-                "Standard_A10",
-                "Standard_A11",
                 "Standard_D3_v2",
                 "Standard_D4_v2",
                 "Standard_D12_v2",
@@ -49,7 +45,7 @@
         "metadata": {
           "description": "Azure storage URL for the root container of the dataset."
         },
-        "defaultValue": "https://storeshare.blob.core.windows.net/genomicsvmlin?sv=2019-02-02&st=2020-09-25T17%3A12%3A13Z&se=2020-12-31T18%3A12%3A00Z&sr=c&sp=rl&sig=J%2Bimmknv31SRzDguFSXLa7uTdAzg%2FAbNOsQ%2B0JAcZAI%3D"
+        "defaultValue": "https://storeshare.blob.core.windows.net/genomicsvmlin?sv=2019-12-12&st=2021-02-18T00%3A30%3A10Z&se=2021-12-31T00%3A30%3A00Z&sr=c&sp=rl&sig=r5BJK3dHpseq4%2BnlRLnlrnfxoGXKtR2sNZDSxytioR8%3D"
       },
         "datasetPath": {
             "type": "string",
