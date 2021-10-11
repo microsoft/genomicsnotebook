@@ -20,6 +20,7 @@ Here is the list of sample notebooks on this repo:
 12. [`Bioconductor.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/Bioconductor.ipynb): Pulling Bioconductor Docker image from [Microsoft Container Registry](https://hub.docker.com/_/microsoft-bioconductor)
 13. [`simtotable.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/simtotable.ipynb): Simulate NGS data, use Cromwell on Azure OR Microsoft Genomics service for secondary analysis and convert the gVCF data to a structured data table.
 14. [`igv_jupyter_extension_sample.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/igv_jupyter_extension_sample.ipynb): Download sample VCF file from [Azure Open Datasets](https://azure.microsoft.com/en-us/services/open-datasets/catalog/genomics-data-lake/) and use igv-jupyter extension on Jupyter Lab environment.
+15. [`radiogenomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/radiogenomics.ipynb): Combine DICOM, VCF and gene expression data for patient segmentation analysis.
 
 *Technical note: [Explore Azure Genomics Data Lake with Azure Storage Explorer](https://github.com/microsoft/genomicsnotebook/blob/main/docs/Genomics_Data_Lake_Azure_Storage_Explorer.pdf)
 
