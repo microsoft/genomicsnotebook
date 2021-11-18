@@ -19,3 +19,5 @@ Notebook creates dataset with the following schema:
 * [Default Glow schema](https://glow.readthedocs.io/en/latest/etl/variant-data.html#vcf)  with removed genotypes and added hashId. 
 
     Information that applies to an entire variant, such as the contig name, start and end positions, and INFO attributes, is contained in columns. The genotypes, which correspond to the GT FORMAT fields in a VCF, are removed since they do not contain any information in gnomAD dataset. Column hashId is constructed as the hash code of all columns except genotypes using the 64-bit variant of the xxHash algorithm, hashId might be used as unique variant id.
+
+Detailed description is available at https://datasetgnomadparquet.blob.core.windows.net/dataset/v2.1.1/dataSchema_exomes.txt and https://datasetgnomadparquet.blob.core.windows.net/dataset/v2.1.1/dataSchema_genomes.txt
