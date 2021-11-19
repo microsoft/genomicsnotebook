@@ -25,13 +25,13 @@ GO
 --- full schemas are available at https://datasetgnomadparquet.blob.core.windows.net/dataset/v2.1.1/dataSchema_exomes.txt and https://datasetgnomadparquet.blob.core.windows.net/dataset/v2.1.1/dataSchema_genomes.txt
 CREATE EXTERNAL TABLE [exomes] (
 	[contigName] varchar(2),
-    [referenceAllele] varchar(150),
-    [alternateAlleles] varchar(150),
-    [start] bigint,
+	[referenceAllele] varchar(150),
+	[alternateAlleles] varchar(150),
+	[start] bigint,
 	[end] bigint,
 	[names] varchar(150),
-    [qual] float,
-    [INFO_VQSR_POSITIVE_TRAIN_SITE] bit
+	[qual] float,
+	[INFO_VQSR_POSITIVE_TRAIN_SITE] bit
 	)
 	WITH (
 	LOCATION = 'v2.1.1/exomes/*/*.snappy.parquet', 
