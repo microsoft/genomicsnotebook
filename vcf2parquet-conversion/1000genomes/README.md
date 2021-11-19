@@ -12,7 +12,7 @@ We also provide SQL scripts to create external tables on curated 1000 Genomes da
 
 East US: https://curated1000genomes.blob.core.windows.net/dataset
 
-[SAS Token](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview): sv=2020-04-08&st=2021-06-25T13%3A18%3A33Z&se=2021-07-26T13%3A18%3A00Z&sr=c&sp=rl&sig=WzzItjHxTZnApdYB%2B9iD2ABPVKaOi3sA2NG05AyJB5g%3D
+[SAS Token](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview): sv=2018-03-28&si=prod&sr=c&sig=BgIomQanB355O4FhxqBL9xUgKzwpcVlRZdBewO5%2FM4E%3D
 
 ### Data schema 
 
