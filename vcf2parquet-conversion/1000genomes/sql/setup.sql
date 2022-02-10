@@ -1,6 +1,6 @@
 --- create database
 CREATE DATABASE [1000Genomes]
-    COLLATE Latin1_General_100_BIN2_UTF8;
+    COLLATE SQL_Latin1_General_CP1_CI_AS;
 GO
 
 USE [1000Genomes]
