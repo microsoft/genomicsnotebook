@@ -2,7 +2,10 @@
 # Genomics Data Analysis with Jupyter Notebooks on Azure
 ![text](https://github.com/microsoft/genomicsnotebook/blob/main/docs/image328.png)
 
-Jupyter notebooks are a great tool for data scientists who are working on genomics data analysis. In this repo, we demonstrate the use of [Azure Notebooks](https://docs.microsoft.com/en-us/azure/notebooks/) for genomics data analysis via GATK, Picard, Bioconductor and Python libraries.
+Jupyter notebook is a great tool for data scientists who are working on genomics data analysis. In this repo, we demonstrate the use of [Azure Notebooks](https://docs.microsoft.com/en-us/azure/notebooks/) for genomics data analysis via GATK, Picard, Bioconductor and Python libraries.
+
+### 3/31/2022: NEW DEMO VIDEO: [How to use 'genomicsnotebook' repo in GitHub Codespaces?](https://storeshare.blob.core.windows.net/publicdata/genomics_notebook_codespaces.mp4)
+_For more information about Codespaces please visit the [product page](https://github.com/features/codespaces)_
 
 Here is the list of sample notebooks on this repo:
 
