@@ -45,9 +45,13 @@ az group deployment create --subscription <SUBSCRIPTION ID> \
   
 4.	[Bioconductor’s system dependency shell file](https://github.com/Bioconductor/bioconductor_docker/blob/master/bioc_scripts/install_bioc_sysdeps.sh)
 
+5. [Demo video for BioC 2022 conference](https://storeshare.blob.core.windows.net/bioc2022/record_bioc_22_erdal_cosgun.mp4)
+
 # References:
 1.	[Azure VM extensions and features for Linux - Azure Virtual Machines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/features-linux)
+
 2.	[Bioconductor on Microsoft Azure - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/bioconductor-on-microsoft-azure/ba-p/3101837)
+
 3.	[What is the Azure Data Science Virtual Machine - Azure Data Science Virtual Machine | Microsoft Docs](https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/overview)
 
 # Notices
