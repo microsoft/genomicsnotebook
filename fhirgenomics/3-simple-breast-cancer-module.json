@@ -1,0 +1,206 @@
+{
+  "name": "simple_breast_cancer",
+  "remarks": [
+    "Simplified module describing breast cancer.",
+    "- all females have breast cancer",
+    "- they either take Epirubicin or Doxorubicin"
+  ],
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Gender",
+            "gender": "F"
+          },
+          "transition": "Breast Cancer"
+        },
+        {
+          "transition": "Terminal"
+        }
+      ]
+    },
+    "Terminal": {
+      "type": "Terminal"
+    },
+    "Breast Cancer": {
+      "type": "ConditionOnset",
+      "target_encounter": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 254837009,
+          "display": "Malignant neoplasm of breast (disorder)"
+        }
+      ],
+      "assign_to_attribute": "simple_breast_cancer",
+      "direct_transition": "Breast Cancer Diagnosis"
+    },
+    "Death": {
+      "type": "Death",
+      "direct_transition": "Terminal",
+      "range": {
+        "low": 1,
+        "high": 100,
+        "unit": "days"
+      }
+    },
+    "Breast Cancer Diagnosis": {
+      "type": "Encounter",
+      "encounter_class": "emergency",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "254837009-1",
+          "display": "Malignant neoplasm of breast (disorder)"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Epirubicin Prescribed",
+          "distribution": 0.5
+        },
+        {
+          "transition": "Doxorubicin Prescribed",
+          "distribution": 0.5
+        }
+      ]
+    },
+    "Patient Will Die": {
+      "type": "EncounterEnd",
+      "direct_transition": "Death"
+    },
+    "Patient Will Live": {
+      "type": "EncounterEnd",
+      "direct_transition": "Terminal"
+    },
+    "Epirubicin Prescribed": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1732186,
+          "display": "100 ML Epirubicin Hydrochloride 2 MG/ML Injection"
+        }
+      ],
+      "reason": "Breast Cancer",
+      "assign_to_attribute": "epirubicin",
+      "distributed_transition": [
+        {
+          "transition": "Epirubicin with Variant",
+          "distribution": 0.5
+        },
+        {
+          "transition": "Epirubicin without Variant",
+          "distribution": 0.5
+        }
+      ]
+    },
+    "Doxorubicin Prescribed": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1790099,
+          "display": "10 ML Doxorubicin Hydrochloride 2 MG/ML Injection"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Doxorubicin without Variant",
+          "distribution": 0.5
+        },
+        {
+          "transition": "Doxorubicin with Variant",
+          "distribution": 0.5
+        }
+      ],
+      "reason": "Breast Cancer",
+      "assign_to_attribute": "doxorubicin"
+    },
+    "Epirubicin without Variant": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "REF",
+          "display": "variant not present"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Patient Will Live",
+          "distribution": 0.5
+        },
+        {
+          "transition": "Patient Will Die",
+          "distribution": 0.5
+        }
+      ]
+    },
+    "Epirubicin with Variant": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "ALT",
+          "display": "variant present"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Patient Will Live",
+          "distribution": 0.9
+        },
+        {
+          "transition": "Patient Will Die",
+          "distribution": 0.1
+        }
+      ]
+    },
+    "Doxorubicin with Variant": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "ALT",
+          "display": "variant present"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Patient Will Live",
+          "distribution": 0.5
+        },
+        {
+          "transition": "Patient Will Die",
+          "distribution": 0.5
+        }
+      ]
+    },
+    "Doxorubicin without Variant": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "REF",
+          "display": "variant not present"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Patient Will Die",
+          "distribution": 0.1
+        },
+        {
+          "transition": "Patient Will Live",
+          "distribution": 0.9
+        }
+      ]
+    }
+  },
+  "gmf_version": 2
+}
