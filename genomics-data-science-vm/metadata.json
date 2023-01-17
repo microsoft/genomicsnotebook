@@ -1,9 +1,0 @@
-{
-  "$schema": "https://github.com/microsoft/genomicsnotebook/tree/main/genomics-data-science-vm#",
-  "type": "QuickStart",
-  "itemDisplayName": "Deploy a Windows Server 2016 and Ubuntu VM for Genomcis analysis",
-  "description": "These template allows you to deploy an Data Science Virtual Machine with Genomics data analysis content.",
-  "summary": "DSVM with genomics content",
-  "githubUsername": "erdalcosgun",
-  "dateUpdated": "2020-08-26"
-}
