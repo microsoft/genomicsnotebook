@@ -1,1 +1,0 @@
-Add VM deployment images.
