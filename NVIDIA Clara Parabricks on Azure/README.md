@@ -3,57 +3,31 @@
 
 <!-- #region -->
 
-`NVIDIA_Clara_Parabricks_on_Azure.ipnyb` presents the **sample code** of NVIDIA Clara Parabricks pipeline on Azure Machine Learning Studio and Ubuntu Virtual Machines on [Microsoft Azure](https://azure.microsoft.com/en-us/)
+[NVIDIA_Clara_Parabricks_on_Azure.ipnyb](https://github.com/microsoft/genomicsnotebook/blob/main/NVIDIA%20Clara%20Parabricks%20on%20Azure/NVIDIA_Clara_Parabricks_on_Azure.ipynb) presents the **sample codes** of NVIDIA Clara Parabricks pipeline with [Data Science Virtual Machine for Linux (Ubuntu)](https://learn.microsoft.com/en-us/azure/machine-learning/data-science-virtual-machine/dsvm-ubuntu-intro) on [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
-### What is NVIDIA Clara Parabricks Pipelines?*
-"_Parabricks is a software suite for performing secondary analysis of next generation sequencing (NGS) DNA and RNA data. A major benefit of Parabricks is that it is designed to deliver results at blazing fast speeds and low cost. Parabricks can analyze whole human genomes in about **45 minutes**, compared to about 30 hours for **30x WGS data**. The best part is the output results exactly match the commonly used software. So, it’s fairly simple to verify the accuracy of the output._"
+###  NVIDIA Clara™ Parabricks®
+NVIDIA introduced the Clara Parabricks software suite for performing analysis of NGS DNA and RNA data. It delivers results at blazing fast speeds and low cost. Clara Parabricks can analyze 30x WGS data in under 25 minutes on a single 8-GPU server, instead of 30 hours for traditional CPU-based methods. Its output matches commonly used software, making it simple to verify the accuracy of the results.
 
-### Why use NVIDIA Clara Parabricks Pipelines?*
+Clara Parabricks software provides at least an order of magnitude acceleration in compute time while generating identical outputs and reducing analysis costs. Clara Parabricks is available free on NVIDIA GPU Cloud (NGC) and can be easily deployed on Azure GPU based virtual machines (VM).
 
-"_Under the hood, it achieves this performance through tight integration with GPUs, which excel at performing data parallel computation much more effectively than traditional CPU-based solutions. Parabricks was built from the ground up by GPU computing and Deep Learning experts who wanted to develop the fastest and most efficient possible implementation of common genomics algorithms used in secondary analysis._"
+Clara Parabricks provides optimal performance for multiple Microsoft Azure instance types and can be used out of the box for essential bioinformatics needs. Currently, the Clara Parabricks accelerated analysis tools start from FASTQ files and perform alignment through variant calling and expression analysis, including QC tools for both types of outputs. The suite of tools can be used to support end-to-end workflows for germline, somatic and RNA-Seq pipelines, providing the flexibility to meet the individual needs of most projects. The tools can also be used individually, as drop-in replacements for steps in existing workflows.
 
-You can learn more at https://developer.nvidia.com/clara-parabricks*
+You can learn more from this [link](https://www.nvidia.com/en-us/clara/genomics/*)
 
-
-**Recommended Virtual Machine/Azure ML compute configurations on Microsoft Azure**
-
-Standard_NC64AS_T4_V3 (64 Cores, 448 GB RAM, 2816 GB Disk) 
-    **Processing Unit** GPU - 4 x NVIDIA Tesla T4
-
-Standard_NC24s_v3 (24 cores, 448 GB RAM, 1344 GB disk) 
-    **Processing Unit** GPU - 4 x NVIDIA Tesla V100
-
-For more information about NC series VMs on Azure, please visit [this link](https://docs.microsoft.com/en-us/azure/virtual-machines/nc-series)
-
-**IMPORTANT INFORMATION**
-
-Users needs a **NVIDIA Clara Parabricks** licence OR trial licence for running the pipelines. For more information please visit https://www.nvidia.com/en-us/clara/genomics/
 
 ### Microsoft Azure Resources 
 
 If you are new to Azure, see:
 - [Microsoft Genomics](https://www.microsoft.com/en-us/genomics/)
-- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 - [Azure Virtual Machines](https://azure.microsoft.com/services/virtual-machines/)
-- [Azure Linux Virtual Machines documentation](https://docs.microsoft.com/azure/virtual-machines/linux/)
-- [Template reference](https://docs.microsoft.com/azure/templates/microsoft.compute/allversions)
-- [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Compute&pageNumber=1&sort=Popular)
 
 
-### `NVIDIA_Clara_Parabricks_on_Azure.ipnyb` covers the steps in below:
+### Support
 
-1. Create and manage Microsoft Azure Machine Learning Studio
+For questions about the notebook: Please send an e-mail to genomics@microsoft.com
 
-2.  Getting Started with NVIDIA Clara Parabricks 
+For other questions about NVIDIA Clara Parabricks [Developer forum of NVIDIA Clara Parabricks](https://forums.developer.nvidia.com/c/healthcare/parabricks/290)
 
-3. Install Dependencies for NVIDIA Parabricks Test Run
-
-4. Run 'fq2bam' pipeline with NVIDIA Clara Parabricks client
-
-
-### Notices
-
-Third party software notices from [NVIDIA CLARA PARABRICKS](https://docs.nvidia.com/clara/parabricks/v3.5/text/software_notices.html)
 
 ### Contributing
 
@@ -69,8 +43,9 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-### Support
 
-For questions about the notebook: Please send an e-mail to genomics@microsoft.com
+### Notices
 
-For other questions about NVIDIA Clara Parabricks [Developer forum of NVIDIA Clara Parabricks](https://forums.developer.nvidia.com/c/healthcare/parabricks/290)
+Third party software notices from [NVIDIA CLARA PARABRICKS](https://docs.nvidia.com/clara/parabricks/v3.5/text/software_notices.html)
+
+THE NOTEBOOK THIS PROJECT JUST PROVIDES A SAMPLE CODES FOR EDUCATIONAL PURPOSES. MICROSOFT DOES NOT CLAIM ANY OWNERSHIP ON THESE CODES AND LIBRARIES. MICROSOFT PROVIDES THIS NOTEBOOK AND SAMPLE USE OF NVIDIA Clara™ Parabricks® codes ON AN “AS IS” BASIS. DATA OR ANY MATERIAL ON THIS NOTEBOOK. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, GUARANTEES OR CONDITIONS WITH RESPECT TO YOUR USE OF THIS NOTEBOOK. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAW, MICROSOFT DISCLAIMS ALL LIABILITY FOR ANY DAMAGES OR LOSSES, INCLUDING DIRECT, CONSEQUENTIAL, SPECIAL, INDIRECT, INCIDENTAL OR PUNITIVE, RESULTING FROM YOUR USE OF THIS NOTEBOOK.
