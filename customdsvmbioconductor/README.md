@@ -37,15 +37,15 @@ az group deployment create --subscription <SUBSCRIPTION ID> \
 
 # Resources:
 
-1.	[Sample 'template.json'  location for ARM Template](https://storeshare.blob.core.windows.net/bioc2022/template.json)
-2.	[Sample 'parameters.json' location for ARM Template](https://storeshare.blob.core.windows.net/bioc2022/parameters.json)
-3.	[Sample command to deploy Custom DSVM](https://storeshare.blob.core.windows.net/bioc2022/deployment_command.txt)
+1.	[Sample 'template.json'  location for ARM Template](https://datasettoaexample.blob.core.windows.net/publicsample/template.json)
+2.	[Sample 'parameters.json' location for ARM Template](https://datasettoaexample.blob.core.windows.net/publicsample/parameters.json)
+3.	[Sample command to deploy Custom DSVM](https://datasettoaexample.blob.core.windows.net/publicsample/deployment_command.txt)
   
     _Note: Users need to log-in (az login) their Azure account to use this sample command_
   
 4.	[Bioconductor’s system dependency shell file](https://github.com/Bioconductor/bioconductor_docker/blob/master/bioc_scripts/install_bioc_sysdeps.sh)
 
-5. [Demo video for BioC 2022 conference](https://storeshare.blob.core.windows.net/bioc2022/record_bioc_22_erdal_cosgun.mp4)
+5. [Demo video for BioC 2022 conference](https://datasettoaexample.blob.core.windows.net/publicsample/record_bioc_22_erdal_cosgun.mp4)
 
 # References:
 1.	[Azure VM extensions and features for Linux - Azure Virtual Machines | Microsoft Docs](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/features-linux)
