@@ -17,7 +17,7 @@ Please review the following articles before deploying the VMs on Microsoft Azure
 
 ##  Custom Genomics Data Science VM- Ubuntu 20.04
 
-**[Guideline: Deploy custom Genomics Data Science VM](https://storeshare.blob.core.windows.net/vmtemplates/deploycommunitygenomics.mp4)**
+**[Guideline: Deploy custom Genomics Data Science VM](https://datasettoaexample.blob.core.windows.net/publicsample/deploycommunitygenomics.mp4)**
 
 
 
