@@ -4,9 +4,6 @@
 
 Jupyter notebook is a great tool for data scientists who are working on genomics data analysis. In this repo, we demonstrate the use of [Azure Notebooks](https://docs.microsoft.com/en-us/azure/notebooks/) for genomics data analysis via GATK, Picard, Bioconductor and Python libraries.
 
-### 3/31/2022: NEW DEMO VIDEO: [How to use 'genomicsnotebook' repo in GitHub Codespaces?](https://datasettoaexample.blob.core.windows.net/publicsample/genomics_notebook_codespaces.mp4)
-_For more information about Codespaces please visit the [product page](https://github.com/features/codespaces)_
-
 Here is the list of sample notebooks on this repo:
 
 1. [`genomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/genomics.ipynb): Analysis from 'uBAM' to 'structured data table' analysis.
@@ -26,8 +23,7 @@ Here is the list of sample notebooks on this repo:
 15. [`radiogenomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/radiogenomics.ipynb): Combine DICOM, VCF and gene expression data for patient segmentation analysis.
 16. [`fhir+PacBio.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/fhir_long_read.ipynb): Convert Synthetic FHIR and PacBio VCF Data to parquet and Explore with Azure Synapse Analytics
 17. [`fhir-vcf-clustering.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/fhir-vcf-clustering.ipynb): Convert Synthetic FHIR and PacBio VCF Data to parquet and Explore with Azure Synapse Analytics
-
-
+18. [`graphragforgenomics.ipynb`](https://github.com/microsoft/genomicsnotebook/blob/main/sample-notebooks/graphragforgenomics.ipynb): Use GraphRAG for genomics annotation.
 
 *Technical note: [Explore Azure Genomics Data Lake with Azure Storage Explorer](https://github.com/microsoft/genomicsnotebook/blob/main/docs/Genomics_Data_Lake_Azure_Storage_Explorer.pdf)
 
