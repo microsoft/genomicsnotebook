@@ -1,3 +1,19 @@
+Dear Community,
+
+After careful consideration, we have decided to shift our focus to new and innovative initiatives that will better serve our community and align with our long-term goals.
+
+**Effective Date: May 12th, 2025**
+
+Impact on Users:
+
+The project repository will be archived and set to read-only mode, ensuring that it remains accessible for reference.
+While no further updates, bug fixes, or support will be provided, we encourage you to explore the wealth of knowledge and resources available in the repository.
+
+Licensing: The project will remain under its current open-source license, allowing others to fork and continue development if they choose.
+
+We understand that this change may come as a surprise, but we are incredibly grateful for your support and contributions over the years. Your dedication has been instrumental in the success of this project, and we look forward to your continued involvement in our future endeavors.
+
+Thank you for your understanding and support.
 
 # Genomics Data Analysis with Jupyter Notebooks on Azure
 ![text](https://github.com/microsoft/genomicsnotebook/blob/main/docs/image328.png)
